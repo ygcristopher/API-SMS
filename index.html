@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Nvoip API-SMS</title>
+</head>
+<body>
+<section>
+    <div>
+        <img src="./assets/logo.png" alt="logo">
+    </div>
+
+    <h3>Napikey</h3>
+    <input type="text" name="napikey" id="napikey">
+
+    <h3>Receber número de SMS</h1>
+    <input type="text" name="number" id="number" >
+
+    <h3>Menssage</h1>
+    <input type="text" name="sms" id="menssage">
+
+    <div id="check-flash">
+        <h3>Flash SMS</h3>
+        <input type="checkbox" name="sms" id="flashSms" value="sms">
+    </div>  
+    <button onClick="toogleSms()">Enviar SMS</button>
+</section>
+<script src="/script.js"></script>
+</body>
+</html>
